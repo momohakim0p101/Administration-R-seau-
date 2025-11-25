@@ -1,0 +1,18 @@
+# Configuration globale de l'application
+
+snmp:
+  community: "public"
+  version: "2c"
+  port: 161
+
+nagios:
+  url: "http://localhost/nagios"
+  api_key: "VOTRE_API_KEY"
+
+wireshark:
+  interface: "eth0"
+  default_filter: "tcp"
+
+database:
+  type: "sqlite"
+  file: "supervision.db"

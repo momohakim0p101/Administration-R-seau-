@@ -1,0 +1,10 @@
+pysnmp
+pyshark
+scapy
+requests
+pandas
+matplotlib
+plotly
+pyqt5
+sqlalchemy
+reportlab
