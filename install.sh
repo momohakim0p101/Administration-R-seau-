@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "=== Mise à jour du système ==="
-sudo apt update && sudo apt upgrade -y
+ sudo apt update
 
 echo "=== Installation Python, pip, venv ==="
 sudo apt install python3 python3-pip python3-venv -y
